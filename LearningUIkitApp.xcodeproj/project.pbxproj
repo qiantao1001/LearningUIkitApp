@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25932D071C4145A800AEE7D1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25932D021C4145A800AEE7D1 /* MainViewController.swift */; };
+		25932D081C4145A800AEE7D1 /* LearningUIkitApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25932D041C4145A800AEE7D1 /* LearningUIkitApp.xcdatamodeld */; };
+		25932D0C1C41476B00AEE7D1 /* ShowUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25932D0B1C41476B00AEE7D1 /* ShowUIViewController.swift */; };
+		25932D101C414EBF00AEE7D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25932D0E1C414EBF00AEE7D1 /* LaunchScreen.storyboard */; };
+		25932D121C43C3CE00AEE7D1 /* ShowUIScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25932D111C43C3CE00AEE7D1 /* ShowUIScrollViewController.swift */; };
 		25A82E351C3E7F530089ACFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A82E341C3E7F530089ACFE /* AppDelegate.swift */; };
-		25A82E371C3E7F530089ACFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A82E361C3E7F530089ACFE /* ViewController.swift */; };
-		25A82E3A1C3E7F530089ACFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A82E381C3E7F530089ACFE /* Main.storyboard */; };
-		25A82E3D1C3E7F530089ACFE /* LearningUIkitApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25A82E3B1C3E7F530089ACFE /* LearningUIkitApp.xcdatamodeld */; };
 		25A82E3F1C3E7F530089ACFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A82E3E1C3E7F530089ACFE /* Assets.xcassets */; };
-		25A82E421C3E7F530089ACFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A82E401C3E7F530089ACFE /* LaunchScreen.storyboard */; };
 		25A82E4D1C3E7F530089ACFE /* LearningUIkitAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A82E4C1C3E7F530089ACFE /* LearningUIkitAppTests.swift */; };
 		25A82E581C3E7F530089ACFE /* LearningUIkitAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A82E571C3E7F530089ACFE /* LearningUIkitAppUITests.swift */; };
+		25D40CC51CA1242600E0C355 /* ShowUICollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D40CC41CA1242600E0C355 /* ShowUICollectionViewController.swift */; };
+		B4E16ADDBDC34F3E3BEF9D4A /* Pods_LearningUIkitApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FF64AEB0250D748B735BE5F /* Pods_LearningUIkitApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +38,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25932D021C4145A800AEE7D1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		25932D051C4145A800AEE7D1 /* LearningUIkitApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LearningUIkitApp.xcdatamodel; sourceTree = "<group>"; };
+		25932D091C4145B700AEE7D1 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25932D0B1C41476B00AEE7D1 /* ShowUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowUIViewController.swift; sourceTree = "<group>"; };
+		25932D0F1C414EBF00AEE7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25932D111C43C3CE00AEE7D1 /* ShowUIScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowUIScrollViewController.swift; sourceTree = "<group>"; };
 		25A82E311C3E7F530089ACFE /* LearningUIkitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningUIkitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A82E341C3E7F530089ACFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		25A82E361C3E7F530089ACFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		25A82E391C3E7F530089ACFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25A82E3C1C3E7F530089ACFE /* LearningUIkitApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LearningUIkitApp.xcdatamodel; sourceTree = "<group>"; };
 		25A82E3E1C3E7F530089ACFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		25A82E411C3E7F530089ACFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		25A82E431C3E7F530089ACFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25A82E481C3E7F530089ACFE /* LearningUIkitAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningUIkitAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A82E4C1C3E7F530089ACFE /* LearningUIkitAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningUIkitAppTests.swift; sourceTree = "<group>"; };
 		25A82E4E1C3E7F530089ACFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25A82E531C3E7F530089ACFE /* LearningUIkitAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningUIkitAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25A82E571C3E7F530089ACFE /* LearningUIkitAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningUIkitAppUITests.swift; sourceTree = "<group>"; };
 		25A82E591C3E7F530089ACFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25D40CC41CA1242600E0C355 /* ShowUICollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowUICollectionViewController.swift; sourceTree = "<group>"; };
+		27D6C3C390BF11D1D7D69EB4 /* Pods-LearningUIkitApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningUIkitApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearningUIkitApp/Pods-LearningUIkitApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9FF64AEB0250D748B735BE5F /* Pods_LearningUIkitApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearningUIkitApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FDAF1122B19436017DF8B0 /* Pods-LearningUIkitApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearningUIkitApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearningUIkitApp/Pods-LearningUIkitApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4E16ADDBDC34F3E3BEF9D4A /* Pods_LearningUIkitApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +85,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25932D011C4145A800AEE7D1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25D40CC41CA1242600E0C355 /* ShowUICollectionViewController.swift */,
+				25932D021C4145A800AEE7D1 /* MainViewController.swift */,
+				25932D111C43C3CE00AEE7D1 /* ShowUIScrollViewController.swift */,
+				25932D0B1C41476B00AEE7D1 /* ShowUIViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		25932D031C4145A800AEE7D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				25932D041C4145A800AEE7D1 /* LearningUIkitApp.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25932D061C4145A800AEE7D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25932D0D1C414EBF00AEE7D1 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				25932D0E1C414EBF00AEE7D1 /* LaunchScreen.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		25A82E281C3E7F530089ACFE = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +126,8 @@
 				25A82E4B1C3E7F530089ACFE /* LearningUIkitAppTests */,
 				25A82E561C3E7F530089ACFE /* LearningUIkitAppUITests */,
 				25A82E321C3E7F530089ACFE /* Products */,
+				D163F06203565144534D6CAF /* Pods */,
+				A88493F20DB1FF7EBBCDB7B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +144,13 @@
 		25A82E331C3E7F530089ACFE /* LearningUIkitApp */ = {
 			isa = PBXGroup;
 			children = (
+				25932D091C4145B700AEE7D1 /* Info.plist */,
 				25A82E341C3E7F530089ACFE /* AppDelegate.swift */,
-				25A82E361C3E7F530089ACFE /* ViewController.swift */,
-				25A82E381C3E7F530089ACFE /* Main.storyboard */,
+				25932D011C4145A800AEE7D1 /* Controllers */,
+				25932D031C4145A800AEE7D1 /* Models */,
+				25932D061C4145A800AEE7D1 /* Views */,
+				25932D0D1C414EBF00AEE7D1 /* Base.lproj */,
 				25A82E3E1C3E7F530089ACFE /* Assets.xcassets */,
-				25A82E401C3E7F530089ACFE /* LaunchScreen.storyboard */,
-				25A82E431C3E7F530089ACFE /* Info.plist */,
-				25A82E3B1C3E7F530089ACFE /* LearningUIkitApp.xcdatamodeld */,
 			);
 			path = LearningUIkitApp;
 			sourceTree = "<group>";
@@ -128,6 +173,23 @@
 			path = LearningUIkitAppUITests;
 			sourceTree = "<group>";
 		};
+		A88493F20DB1FF7EBBCDB7B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FF64AEB0250D748B735BE5F /* Pods_LearningUIkitApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D163F06203565144534D6CAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				27D6C3C390BF11D1D7D69EB4 /* Pods-LearningUIkitApp.debug.xcconfig */,
+				D7FDAF1122B19436017DF8B0 /* Pods-LearningUIkitApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25A82E5C1C3E7F530089ACFE /* Build configuration list for PBXNativeTarget "LearningUIkitApp" */;
 			buildPhases = (
+				57AD8AA3CBA00AFF01B8043B /* Check Pods Manifest.lock */,
 				25A82E2D1C3E7F530089ACFE /* Sources */,
 				25A82E2E1C3E7F530089ACFE /* Frameworks */,
 				25A82E2F1C3E7F530089ACFE /* Resources */,
+				BC1945510405A8DB987B83E9 /* Embed Pods Frameworks */,
+				AEB309862EBC9B075035FF8D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +300,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25A82E421C3E7F530089ACFE /* LaunchScreen.storyboard in Resources */,
 				25A82E3F1C3E7F530089ACFE /* Assets.xcassets in Resources */,
-				25A82E3A1C3E7F530089ACFE /* Main.storyboard in Resources */,
+				25932D101C414EBF00AEE7D1 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,14 +321,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57AD8AA3CBA00AFF01B8043B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AEB309862EBC9B075035FF8D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningUIkitApp/Pods-LearningUIkitApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC1945510405A8DB987B83E9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LearningUIkitApp/Pods-LearningUIkitApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		25A82E2D1C3E7F530089ACFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25A82E3D1C3E7F530089ACFE /* LearningUIkitApp.xcdatamodeld in Sources */,
-				25A82E371C3E7F530089ACFE /* ViewController.swift in Sources */,
+				25932D081C4145A800AEE7D1 /* LearningUIkitApp.xcdatamodeld in Sources */,
 				25A82E351C3E7F530089ACFE /* AppDelegate.swift in Sources */,
+				25932D071C4145A800AEE7D1 /* MainViewController.swift in Sources */,
+				25932D0C1C41476B00AEE7D1 /* ShowUIViewController.swift in Sources */,
+				25932D121C43C3CE00AEE7D1 /* ShowUIScrollViewController.swift in Sources */,
+				25D40CC51CA1242600E0C355 /* ShowUICollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,18 +415,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		25A82E381C3E7F530089ACFE /* Main.storyboard */ = {
+		25932D0E1C414EBF00AEE7D1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				25A82E391C3E7F530089ACFE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		25A82E401C3E7F530089ACFE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				25A82E411C3E7F530089ACFE /* Base */,
+				25932D0F1C414EBF00AEE7D1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -404,6 +511,7 @@
 		};
 		25A82E5D1C3E7F530089ACFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27D6C3C390BF11D1D7D69EB4 /* Pods-LearningUIkitApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LearningUIkitApp/Info.plist;
@@ -415,6 +523,7 @@
 		};
 		25A82E5E1C3E7F530089ACFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7FDAF1122B19436017DF8B0 /* Pods-LearningUIkitApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LearningUIkitApp/Info.plist;
@@ -491,6 +600,7 @@
 				25A82E5E1C3E7F530089ACFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25A82E5F1C3E7F530089ACFE /* Build configuration list for PBXNativeTarget "LearningUIkitAppTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +609,7 @@
 				25A82E611C3E7F530089ACFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		25A82E621C3E7F530089ACFE /* Build configuration list for PBXNativeTarget "LearningUIkitAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,16 +618,17 @@
 				25A82E641C3E7F530089ACFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		25A82E3B1C3E7F530089ACFE /* LearningUIkitApp.xcdatamodeld */ = {
+		25932D041C4145A800AEE7D1 /* LearningUIkitApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				25A82E3C1C3E7F530089ACFE /* LearningUIkitApp.xcdatamodel */,
+				25932D051C4145A800AEE7D1 /* LearningUIkitApp.xcdatamodel */,
 			);
-			currentVersion = 25A82E3C1C3E7F530089ACFE /* LearningUIkitApp.xcdatamodel */;
+			currentVersion = 25932D051C4145A800AEE7D1 /* LearningUIkitApp.xcdatamodel */;
 			path = LearningUIkitApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

@@ -1,0 +1,6 @@
+framework module Pods_LearningUIkitApp {
+  umbrella header "Pods-LearningUIkitApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
